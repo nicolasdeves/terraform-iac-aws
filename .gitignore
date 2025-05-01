@@ -3,3 +3,4 @@
 *backup
 .terraform.tfstate.lock
 .terraform/
+.terraform.tfstate.d/

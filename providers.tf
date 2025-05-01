@@ -11,4 +11,5 @@ terraform {
 
 provider "aws" {
   profile = "nicolas"
+  region = "us-east-2"
 }

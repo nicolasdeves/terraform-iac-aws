@@ -8,9 +8,15 @@
 
 - `aws sso login`
 
+- aws sso login --profile nome-usuario
+
 #### Adicionar recurso
 - `terraform validate`
 
 - `terraform plan`
 
 - `terraform apply`
+
+#### Workspace
+
+- `terraform workspace`
