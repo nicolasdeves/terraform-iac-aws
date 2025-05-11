@@ -7,3 +7,9 @@ variable "origin_id" {
    type        = string
    description = "Domínio do S3"
  }
+
+ variable "tags" {
+  type = map(string)
+  default = {}
+  description = "Tags de criação"
+}

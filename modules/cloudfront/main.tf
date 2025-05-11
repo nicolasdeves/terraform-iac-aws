@@ -1,5 +1,7 @@
 resource "aws_cloudfront_distribution" "cloudfront" {
    enabled = true
+
+   tags = "${var.tags}"
  
    origin {
      origin_id   = var.origin_id
